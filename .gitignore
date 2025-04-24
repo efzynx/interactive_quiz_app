@@ -1,0 +1,52 @@
+# File: .gitignore
+
+# Virtual Environment
+venv/
+.venv/
+env/
+*.env
+env.bak
+venv.bak
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+logs/
+
+# Database files (jika pakai sqlite lokal)
+*.db
+*.sqlite3
+
+# Sensitive environment variables file(s) <<< SANGAT PENTING
+.env
+.env.*
+!/.env.example # Kecuali file contoh
+
+# Node modules (jika sempat install untuk build Tailwind)
+node_modules/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Docker (tergantung kebutuhan, jika image tidak di-push ke registry publik)
+# docker-compose.yml # Mungkin ingin disimpan
+# Dockerfile # Mungkin ingin disimpan
+
+# Lainnya
+*.bak
+*.swp
