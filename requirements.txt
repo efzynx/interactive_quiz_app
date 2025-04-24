@@ -1,0 +1,15 @@
+fastapi-users[sqlalchemy]
+sqlalchemy
+psycopg2-binary
+alembic # Untuk migrasi db
+python-multipart # Untuk data form login
+passlib[bcrypt] # Untuk hashing password
+email-validator # Untuk validasi email
+python-jose[cryptography] # Untuk JWT
+uvicorn[standard]
+requests
+pydantic
+wikipedia
+html5lib # Diperlukan oleh wikipedia library
+beautifulsoup4 # Juga mungkin diperlukan oleh wikipedia library
+python-dotenv # Jika menggunakan .env
